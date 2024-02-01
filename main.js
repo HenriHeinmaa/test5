@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 app.use('/calculate', calculatorRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+  console.log(`Server is running on port http://localhost:${3000}`);
 
+});
 inputHandler.startInput();
